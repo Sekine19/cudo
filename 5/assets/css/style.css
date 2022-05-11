@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --tit: 'Titillium Web', sans-serif
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.active {
+    background-color: #643a79;
+    border-radius: 4px;
+}
+
+/* header css start */
+
+header {
+    background-color: #87509c;
+}
+
+header nav ul {
+    padding-top: 1opx;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav {
+    padding-top: 60px;
+}
+
+header nav ul li a {
+    font: 400 16px var(--tit);
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #643a79;
+}
+
+#header-body {
+    padding-bottom: 145px;
+}
+
+#header-body h1 {
+    font: 700 42px var(--tit);
+    line-height: 49px;
+    color: #f7f3ea;
+    text-align: center;
+    margin-top: 145px;
+}
+
+#header-body button {
+    display: block;
+    margin: auto;
+    background-color: #eb7d4b;
+    font: 600 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 25px 80px;
+    border: none;
+    border-bottom: 4px solid #c86a40;
+    margin-top: 60px;
+}
+
+
+/* #green css start */
+
+
+#green {
+    margin: auto;
+    display: block;
+    background-color: #17c2a4;
+}
+
+#head {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+#green div nav hr {
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    width: 87px;
+    height: 4px;
+    background-color: #14a58c;
+}
+
+#green div nav p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+#green div div {
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.divhbir {
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.divhiki {
+    font: 300 16px var(--tit);
+    width: 204px;
+    height: 192px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* #uc css start */
+
+
+#uc {
+    margin: auto;
+    background-color: #e7f1f8;
+}
+
+#uc div h1 {
+    font: 400 41px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#uc div hr {
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 26px;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    border: 0;
+}
+
+#uc div p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.image {
+    margin: auto;
+    display: inline-block;
+}
+
+.image div {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #878787;
+    object-fit: cover;
+    object-position: top;
+}
+
+.image h1 {
+    font: 700 24px var(--tit) !important;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #27283d;
+}
+
+.image h6 {
+    font: 400 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+}
+
+.image p {
+    width: 204px;
+    height: 192px;
+    font: 400 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+}
+
+.image div a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #bdd1df;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 128px;
+}
+
+.image div a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+
+/* #dord css start */
+
+#dord {
+    background-color: #ffffff;
+    margin: auto;
+}
+
+#dord div div {
+    display: flex;
+}
+
+#dord div h1 {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 116px;
+    padding-bottom: 20px;
+}
+
+#dord div hr {
+    width: 87px;
+    height: 4px;
+    background-color: #dfe8ed;
+    border: 0;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+#dord div p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+
+#dord div h1 {
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+}
+
+
+/* #bes css start */
+
+#bes {
+    background-color: #ffdd99;
+    margin: auto;
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bes h1 {
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #393939;
+    text-align: center;
+    padding-top: 125px;
+    margin-bottom: 15px;
+}
+
+#bes hr {
+    width: 87px;
+    height: 4px;
+    background-color: #e5c37f;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+#bes p {
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+#bes div button {
+    background-color: #17c2a4;
+    font: 600 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 28px 54px 28px 58px;
+    border: 0;
+    border-radius: 4px;
+    margin: auto;
+}
